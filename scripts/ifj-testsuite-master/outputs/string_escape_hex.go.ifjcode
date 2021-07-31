@@ -1,0 +1,25 @@
+.IFJcode20
+
+# compiler variables definition
+DEFVAR GF@?temp&1
+DEFVAR GF@?temp&2
+DEFVAR GF@?temp&3
+DEFVAR GF@?temp&4
+DEFVAR GF@?temp&5
+DEFVAR GF@?temp&6
+DEFVAR GF@?_&
+
+# variables of non recursive functions definition
+DEFVAR GF@b&13
+
+# registers definition
+DEFVAR GF@r%1&
+
+JUMP $main
+
+# $main: definition start
+LABEL $main
+MOVE GF@b&13 string@\004\-112\-74am\032\0200\-46
+EXIT int@0
+# $main: definition end
+

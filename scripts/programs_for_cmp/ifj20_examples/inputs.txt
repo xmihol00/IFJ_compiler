@@ -1,0 +1,6 @@
+5
+ jeden radek
+druhy radek 
+text1
+text2
+text3

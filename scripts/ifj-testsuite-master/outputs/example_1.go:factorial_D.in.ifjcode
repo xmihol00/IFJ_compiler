@@ -1,0 +1,55 @@
+.IFJcode20
+
+# compiler variables definition
+DEFVAR GF@?temp&1
+DEFVAR GF@?temp&2
+DEFVAR GF@?temp&3
+DEFVAR GF@?temp&4
+DEFVAR GF@?temp&5
+DEFVAR GF@?temp&6
+DEFVAR GF@?_&
+
+# variables of non recursive functions definition
+DEFVAR GF@a&13
+DEFVAR GF@vysl&14
+
+# registers definition
+DEFVAR GF@r%1&
+
+JUMP $main
+
+# $main: definition start
+LABEL $main
+WRITE string@Zadejte\032cislo\032pro\032vypocet\032faktorialu:\032
+MOVE GF@a&13 int@0
+# input
+READ GF@a&13 int
+
+
+# if statement start
+LT GF@r%1& GF@a&13 int@0
+JUMPIFNEQ $main_if1_1 GF@r%1& bool@true
+WRITE string@Faktorial\032nejde\032spocitat!\010
+JUMP $main_ifend1
+LABEL $main_if1_1
+MOVE GF@vysl&14 int@1
+
+# for statement start
+LABEL $main_for1
+GT GF@r%1& GF@a&13 int@0
+JUMPIFNEQ $main_forend1 GF@r%1& bool@true
+MUL GF@vysl&14 GF@vysl&14 GF@a&13
+ADD GF@a&13 int@-1 GF@a&13
+JUMP $main_for1
+LABEL $main_forend1
+# for statement end
+
+WRITE string@Vysledek\032je\032
+WRITE GF@vysl&14
+WRITE string@\010
+LABEL $main_ifend1
+# if statement end
+
+EXIT int@0
+# $main: definition end
+

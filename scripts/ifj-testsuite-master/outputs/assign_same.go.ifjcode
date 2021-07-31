@@ -1,0 +1,60 @@
+.IFJcode20
+
+# compiler variables definition
+DEFVAR GF@?temp&1
+DEFVAR GF@?temp&2
+DEFVAR GF@?temp&3
+DEFVAR GF@?temp&4
+DEFVAR GF@?temp&5
+DEFVAR GF@?temp&6
+DEFVAR GF@?_&
+
+# variables of non recursive functions definition
+DEFVAR GF@param&13
+DEFVAR GF@a&14
+DEFVAR GF@f&15
+
+# registers definition
+DEFVAR GF@r%1&
+
+JUMP $main
+
+# $alpha: definition start
+LABEL $alpha
+PUSHS int@1
+PUSHS int@2
+RETURN
+RETURN
+# $alpha: definition end
+
+
+# $beta: definition start
+LABEL $beta
+ADD GF@param&13 float@0x1.d99999999999ap+1 GF@param&13
+PUSHS GF@param&13
+PUSHS string@help
+PUSHS float@0x1.7333333333333p+1
+RETURN
+RETURN
+# $beta: definition end
+
+
+# $main: definition start
+LABEL $main
+MOVE GF@a&14 int@0
+CALL $alpha
+POPS GF@a&14
+POPS GF@a&14
+WRITE GF@a&14
+WRITE string@\010
+MOVE GF@f&15 float@0x0p+0
+MOVE GF@param&13 GF@f&15
+CALL $beta
+POPS GF@f&15
+POPS GF@?_&
+POPS GF@f&15
+WRITE GF@f&15
+WRITE string@\010
+EXIT int@0
+# $main: definition end
+

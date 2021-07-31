@@ -1,0 +1,1948 @@
+
+********************
+TEST 1: ./scripts/ifj_testsuite/test_files/lex/strings/unfinished_string_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 2: ./scripts/ifj_testsuite/test_files/lex/strings/string_bad_escape_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 3: ./scripts/ifj_testsuite/test_files/lex/strings/unfinished_string_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 4: ./scripts/ifj_testsuite/test_files/lex/strings/string_escape.go
+********************
+
+SUCCESS
+
+********************
+TEST 5: ./scripts/ifj_testsuite/test_files/lex/strings/string_escape_hex.go
+********************
+
+SUCCESS
+
+********************
+TEST 6: ./scripts/ifj_testsuite/test_files/lex/strings/string.go
+********************
+
+SUCCESS
+
+********************
+TEST 7: ./scripts/ifj_testsuite/test_files/lex/strings/string_bad_escape_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 8: ./scripts/ifj_testsuite/test_files/lex/strings/empty_string.go
+********************
+
+SUCCESS
+
+********************
+TEST 9: ./scripts/ifj_testsuite/test_files/lex/strings/string_bad_escape_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 10: ./scripts/ifj_testsuite/test_files/lex/strings/string_bad_escape_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 11: ./scripts/ifj_testsuite/test_files/lex/characters/dot.go
+********************
+
+SUCCESS
+
+********************
+TEST 12: ./scripts/ifj_testsuite/test_files/lex/characters/amp.go
+********************
+
+SUCCESS
+
+********************
+TEST 13: ./scripts/ifj_testsuite/test_files/lex/characters/dolar.go
+********************
+
+SUCCESS
+
+********************
+TEST 14: ./scripts/ifj_testsuite/test_files/lex/characters/sharp.go
+********************
+
+SUCCESS
+
+********************
+TEST 15: ./scripts/ifj_testsuite/test_files/lex/characters/bracket.go
+********************
+
+SUCCESS
+
+********************
+TEST 16: ./scripts/ifj_testsuite/test_files/lex/characters/question.go
+********************
+
+SUCCESS
+
+********************
+TEST 17: ./scripts/ifj_testsuite/test_files/lex/ids/underscore_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 18: ./scripts/ifj_testsuite/test_files/lex/ids/id_all.go
+********************
+
+SUCCESS
+
+********************
+TEST 19: ./scripts/ifj_testsuite/test_files/lex/ids/id_starting_underscore.go
+********************
+
+SUCCESS
+
+********************
+TEST 20: ./scripts/ifj_testsuite/test_files/lex/ids/id_numbers.go
+********************
+
+SUCCESS
+
+********************
+TEST 21: ./scripts/ifj_testsuite/test_files/lex/numbers/float_dot_zeroes.go
+********************
+
+SUCCESS
+
+********************
+TEST 22: ./scripts/ifj_testsuite/test_files/lex/numbers/float_exp_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 23: ./scripts/ifj_testsuite/test_files/lex/numbers/float_exp_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 24: ./scripts/ifj_testsuite/test_files/lex/numbers/float_exp_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 25: ./scripts/ifj_testsuite/test_files/lex/numbers/leading_zeroes_int.go
+********************
+
+SUCCESS
+
+********************
+TEST 26: ./scripts/ifj_testsuite/test_files/lex/numbers/float_exp_dot_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 27: ./scripts/ifj_testsuite/test_files/lex/numbers/float_exp_dot_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 28: ./scripts/ifj_testsuite/test_files/lex/numbers/float_exp_zeroes.go
+********************
+
+SUCCESS
+
+********************
+TEST 29: ./scripts/ifj_testsuite/test_files/lex/numbers/float_exp_zero_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 30: ./scripts/ifj_testsuite/test_files/lex/numbers/zero_float.go
+********************
+
+SUCCESS
+
+********************
+TEST 31: ./scripts/ifj_testsuite/test_files/lex/numbers/float_dot.go
+********************
+
+SUCCESS
+
+********************
+TEST 32: ./scripts/ifj_testsuite/test_files/lex/numbers/zeroes.go
+********************
+
+SUCCESS
+
+********************
+TEST 33: ./scripts/ifj_testsuite/test_files/lex/numbers/float_exp_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 34: ./scripts/ifj_testsuite/test_files/lex/numbers/zero_int.go
+********************
+
+SUCCESS
+
+********************
+TEST 35: ./scripts/ifj_testsuite/test_files/lex/numbers/float_dot_zero.go
+********************
+
+SUCCESS
+
+********************
+TEST 36: ./scripts/ifj_testsuite/test_files/lex/numbers/leading_zeroes_float.go
+********************
+
+SUCCESS
+
+********************
+TEST 37: ./scripts/ifj_testsuite/test_files/lex/numbers/float_exp_zero_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 38: ./scripts/ifj_testsuite/test_files/lex/numbers/int.go
+********************
+
+SUCCESS
+
+********************
+TEST 39: ./scripts/ifj_testsuite/test_files/lex/numbers/float_space.go
+********************
+
+SUCCESS
+
+********************
+TEST 40: ./scripts/ifj_testsuite/test_files/lex/comments/block_line.go
+********************
+
+SUCCESS
+
+********************
+TEST 41: ./scripts/ifj_testsuite/test_files/lex/comments/multiline.go
+********************
+
+SUCCESS
+
+********************
+TEST 42: ./scripts/ifj_testsuite/test_files/lex/comments/line_nested.go
+********************
+
+SUCCESS
+
+********************
+TEST 43: ./scripts/ifj_testsuite/test_files/lex/comments/unending.go
+********************
+
+SUCCESS
+
+********************
+TEST 44: ./scripts/ifj_testsuite/test_files/lex/comments/line_block.go
+********************
+
+SUCCESS
+
+********************
+TEST 45: ./scripts/ifj_testsuite/test_files/sem/builtin/chr_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 46: ./scripts/ifj_testsuite/test_files/sem/builtin/print_float.go
+********************
+
+SUCCESS
+
+********************
+TEST 47: ./scripts/ifj_testsuite/test_files/sem/builtin/inputf_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 48: ./scripts/ifj_testsuite/test_files/sem/builtin/cast_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 49: ./scripts/ifj_testsuite/test_files/sem/builtin/ord_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 50: ./scripts/ifj_testsuite/test_files/sem/builtin/ord_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 51: ./scripts/ifj_testsuite/test_files/sem/builtin/len_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 52: ./scripts/ifj_testsuite/test_files/sem/builtin/inputi_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 53: ./scripts/ifj_testsuite/test_files/sem/builtin/inputs_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 54: ./scripts/ifj_testsuite/test_files/sem/builtin/print_string.go
+********************
+
+SUCCESS
+
+********************
+TEST 55: ./scripts/ifj_testsuite/test_files/sem/builtin/len_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 56: ./scripts/ifj_testsuite/test_files/sem/builtin/inputi_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 57: ./scripts/ifj_testsuite/test_files/sem/builtin/print_int.go
+********************
+
+SUCCESS
+
+********************
+TEST 58: ./scripts/ifj_testsuite/test_files/sem/builtin/chr_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 59: ./scripts/ifj_testsuite/test_files/sem/builtin/ord_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 60: ./scripts/ifj_testsuite/test_files/sem/builtin/print_empty.go
+********************
+
+SUCCESS
+
+********************
+TEST 61: ./scripts/ifj_testsuite/test_files/sem/builtin/print_bad.go
+********************
+
+SUCCESS
+
+********************
+TEST 62: ./scripts/ifj_testsuite/test_files/sem/builtin/cast_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 63: ./scripts/ifj_testsuite/test_files/sem/builtin/cast_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 64: ./scripts/ifj_testsuite/test_files/sem/builtin/substr_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 65: ./scripts/ifj_testsuite/test_files/sem/builtin/inputf_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 66: ./scripts/ifj_testsuite/test_files/sem/builtin/print_all.go
+********************
+
+SUCCESS
+
+********************
+TEST 67: ./scripts/ifj_testsuite/test_files/sem/builtin/inputs_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 68: ./scripts/ifj_testsuite/test_files/sem/builtin/substr_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 69: ./scripts/ifj_testsuite/test_files/sem/builtin/cast_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 70: ./scripts/ifj_testsuite/test_files/sem/builtin/substr_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 71: ./scripts/ifj_testsuite/test_files/sem/expresion/eq_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 72: ./scripts/ifj_testsuite/test_files/sem/expresion/lte_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 73: ./scripts/ifj_testsuite/test_files/sem/expresion/lt_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 74: ./scripts/ifj_testsuite/test_files/sem/expresion/gte_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 75: ./scripts/ifj_testsuite/test_files/sem/expresion/add_8.go
+********************
+
+SUCCESS
+
+********************
+TEST 76: ./scripts/ifj_testsuite/test_files/sem/expresion/sub_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 77: ./scripts/ifj_testsuite/test_files/sem/expresion/lt_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 78: ./scripts/ifj_testsuite/test_files/sem/expresion/add_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 79: ./scripts/ifj_testsuite/test_files/sem/expresion/mul_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 80: ./scripts/ifj_testsuite/test_files/sem/expresion/lte_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 81: ./scripts/ifj_testsuite/test_files/sem/expresion/div_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 82: ./scripts/ifj_testsuite/test_files/sem/expresion/add_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 83: ./scripts/ifj_testsuite/test_files/sem/expresion/div_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 84: ./scripts/ifj_testsuite/test_files/sem/expresion/div_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 85: ./scripts/ifj_testsuite/test_files/sem/expresion/gte_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 86: ./scripts/ifj_testsuite/test_files/sem/expresion/neq_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 87: ./scripts/ifj_testsuite/test_files/sem/expresion/gt_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 88: ./scripts/ifj_testsuite/test_files/sem/expresion/div_zero.go
+********************
+
+SUCCESS
+
+********************
+TEST 89: ./scripts/ifj_testsuite/test_files/sem/expresion/lte_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 90: ./scripts/ifj_testsuite/test_files/sem/expresion/add_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 91: ./scripts/ifj_testsuite/test_files/sem/expresion/eq_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 92: ./scripts/ifj_testsuite/test_files/sem/expresion/neq_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 93: ./scripts/ifj_testsuite/test_files/sem/expresion/mul_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 94: ./scripts/ifj_testsuite/test_files/sem/expresion/sub_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 95: ./scripts/ifj_testsuite/test_files/sem/expresion/lte_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 96: ./scripts/ifj_testsuite/test_files/sem/expresion/gte_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 97: ./scripts/ifj_testsuite/test_files/sem/expresion/eq_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 98: ./scripts/ifj_testsuite/test_files/sem/expresion/lt_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 99: ./scripts/ifj_testsuite/test_files/sem/expresion/gt_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 100: ./scripts/ifj_testsuite/test_files/sem/expresion/neq_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 101: ./scripts/ifj_testsuite/test_files/sem/expresion/sub_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 102: ./scripts/ifj_testsuite/test_files/sem/expresion/lt_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 103: ./scripts/ifj_testsuite/test_files/sem/expresion/lte_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 104: ./scripts/ifj_testsuite/test_files/sem/expresion/neq_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 105: ./scripts/ifj_testsuite/test_files/sem/expresion/gte_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 106: ./scripts/ifj_testsuite/test_files/sem/expresion/gt_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 107: ./scripts/ifj_testsuite/test_files/sem/expresion/mul_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 108: ./scripts/ifj_testsuite/test_files/sem/expresion/mul_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 109: ./scripts/ifj_testsuite/test_files/sem/expresion/div_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 110: ./scripts/ifj_testsuite/test_files/sem/expresion/add_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 111: ./scripts/ifj_testsuite/test_files/sem/expresion/eq_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 112: ./scripts/ifj_testsuite/test_files/sem/expresion/gt_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 113: ./scripts/ifj_testsuite/test_files/sem/expresion/mul_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 114: ./scripts/ifj_testsuite/test_files/sem/expresion/gte_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 115: ./scripts/ifj_testsuite/test_files/sem/expresion/neq_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 116: ./scripts/ifj_testsuite/test_files/sem/expresion/gte_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 117: ./scripts/ifj_testsuite/test_files/sem/expresion/mul_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 118: ./scripts/ifj_testsuite/test_files/sem/expresion/neq_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 119: ./scripts/ifj_testsuite/test_files/sem/expresion/div_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 120: ./scripts/ifj_testsuite/test_files/sem/expresion/gt_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 121: ./scripts/ifj_testsuite/test_files/sem/expresion/mul_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 122: ./scripts/ifj_testsuite/test_files/sem/expresion/lte_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 123: ./scripts/ifj_testsuite/test_files/sem/expresion/div_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 124: ./scripts/ifj_testsuite/test_files/sem/expresion/sub_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 125: ./scripts/ifj_testsuite/test_files/sem/expresion/lte_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 126: ./scripts/ifj_testsuite/test_files/sem/expresion/neq_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 127: ./scripts/ifj_testsuite/test_files/sem/expresion/gt_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 128: ./scripts/ifj_testsuite/test_files/sem/expresion/add_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 129: ./scripts/ifj_testsuite/test_files/sem/expresion/add_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 130: ./scripts/ifj_testsuite/test_files/sem/expresion/div_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 131: ./scripts/ifj_testsuite/test_files/sem/expresion/sub_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 132: ./scripts/ifj_testsuite/test_files/sem/expresion/lt_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 133: ./scripts/ifj_testsuite/test_files/sem/expresion/add_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 134: ./scripts/ifj_testsuite/test_files/sem/expresion/sub_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 135: ./scripts/ifj_testsuite/test_files/sem/expresion/lt_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 136: ./scripts/ifj_testsuite/test_files/sem/expresion/lt_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 137: ./scripts/ifj_testsuite/test_files/sem/expresion/sub_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 138: ./scripts/ifj_testsuite/test_files/sem/expresion/eq_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 139: ./scripts/ifj_testsuite/test_files/sem/expresion/gt_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 140: ./scripts/ifj_testsuite/test_files/sem/expresion/div_zero_complex.go
+********************
+
+SUCCESS
+
+********************
+TEST 141: ./scripts/ifj_testsuite/test_files/sem/expresion/add_9.go
+********************
+
+SUCCESS
+
+********************
+TEST 142: ./scripts/ifj_testsuite/test_files/sem/expresion/eq_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 143: ./scripts/ifj_testsuite/test_files/sem/expresion/eq_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 144: ./scripts/ifj_testsuite/test_files/sem/expresion/gte_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 145: ./scripts/ifj_testsuite/test_files/sem/statement/for_nonbool.go
+********************
+
+SUCCESS
+
+********************
+TEST 146: ./scripts/ifj_testsuite/test_files/sem/statement/underscore_usage_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 147: ./scripts/ifj_testsuite/test_files/sem/statement/for_scope_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 148: ./scripts/ifj_testsuite/test_files/sem/statement/bad_return_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 149: ./scripts/ifj_testsuite/test_files/sem/statement/bad_return_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 150: ./scripts/ifj_testsuite/test_files/sem/statement/call_bad_return_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 151: ./scripts/ifj_testsuite/test_files/sem/statement/bad_return_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 152: ./scripts/ifj_testsuite/test_files/sem/statement/assign_dont_match_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 153: ./scripts/ifj_testsuite/test_files/sem/statement/call_bad_params_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 154: ./scripts/ifj_testsuite/test_files/sem/statement/bad_return_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 155: ./scripts/ifj_testsuite/test_files/sem/statement/call_bad_params_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 156: ./scripts/ifj_testsuite/test_files/sem/statement/underscore_usage_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 157: ./scripts/ifj_testsuite/test_files/sem/statement/underscore_usage_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 158: ./scripts/ifj_testsuite/test_files/sem/statement/call_undefined.go
+********************
+
+SUCCESS
+
+********************
+TEST 159: ./scripts/ifj_testsuite/test_files/sem/statement/no_return.go
+********************
+
+SUCCESS
+
+********************
+TEST 160: ./scripts/ifj_testsuite/test_files/sem/statement/for_scope_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 161: ./scripts/ifj_testsuite/test_files/sem/statement/assign_dont_match_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 162: ./scripts/ifj_testsuite/test_files/sem/statement/if_nonbool.go
+********************
+
+SUCCESS
+
+********************
+TEST 163: ./scripts/ifj_testsuite/test_files/sem/statement/underscore_usage_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 164: ./scripts/ifj_testsuite/test_files/sem/statement/call_bad_return_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 165: ./scripts/ifj_testsuite/test_files/sem/statement/assign_dont_match_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 166: ./scripts/ifj_testsuite/test_files/sem/statement/call_bad_return_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 167: ./scripts/ifj_testsuite/test_files/sem/declaration/multiple_vars_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 168: ./scripts/ifj_testsuite/test_files/sem/declaration/multiple_vars_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 2 Expected: [3, 6, 7].
+
+********************
+TEST 169: ./scripts/ifj_testsuite/test_files/sem/declaration/nondefined_var_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 170: ./scripts/ifj_testsuite/test_files/sem/declaration/nondefined_var_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 171: ./scripts/ifj_testsuite/test_files/sem/declaration/multiple_functions.go
+********************
+
+SUCCESS
+
+********************
+TEST 172: ./scripts/ifj_testsuite/test_files/sem/declaration/nondefined_var_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 173: ./scripts/ifj_testsuite/test_files/sem/declaration/multiple_vars_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 174: ./scripts/ifj_testsuite/test_files/sem/declaration/multiple_vars_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 175: ./scripts/ifj_testsuite/test_files/sem/declaration/nondefined_var_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 176: ./scripts/ifj_testsuite/test_files/sem/declaration/multiple_vars_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 177: ./scripts/ifj_testsuite/test_files/sem/other/main_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 178: ./scripts/ifj_testsuite/test_files/sem/other/no_main.go
+********************
+
+SUCCESS
+
+********************
+TEST 179: ./scripts/ifj_testsuite/test_files/sem/other/bad_prolog_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 180: ./scripts/ifj_testsuite/test_files/sem/other/case_sensitive.go
+********************
+
+SUCCESS
+
+********************
+TEST 181: ./scripts/ifj_testsuite/test_files/sem/other/main_params.go
+********************
+
+SUCCESS
+
+********************
+TEST 182: ./scripts/ifj_testsuite/test_files/sem/other/main_params_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 183: ./scripts/ifj_testsuite/test_files/exe/complex/brainfuck.go:brainfuck_A.in
+********************
+
+PROGRAM INPUT:
+++++++++++++++++++++++++++++++++++++++++++++++++.----------------.
+----
+SUCCESS
+
+********************
+TEST 184: ./scripts/ifj_testsuite/test_files/exe/complex/brainfuck.go:brainfuck_B.in
+********************
+
+PROGRAM INPUT:
+++++++++++++++++++++++++++++++++++++++++++++++++>+++++++++++++++++++++++++++++++++++++++++++++++++++<.>>>>>++++++++++<<<><<.<.>>>>>.
+----
+SUCCESS
+
+********************
+TEST 185: ./scripts/ifj_testsuite/test_files/exe/complex/brainfuck.go:brainfuck_C.in
+********************
+
+PROGRAM INPUT:
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+----
+SUCCESS
+
+********************
+TEST 186: ./scripts/ifj_testsuite/test_files/exe/complex/geometry.go:geometry_square.in
+********************
+
+PROGRAM INPUT:
+square
+5.97
+exit
+
+----
+SUCCESS
+
+********************
+TEST 187: ./scripts/ifj_testsuite/test_files/exe/complex/geometry.go:geometry_ractange.in
+********************
+
+PROGRAM INPUT:
+ractange
+2.0
+3.5
+exit
+
+----
+SUCCESS
+
+********************
+TEST 188: ./scripts/ifj_testsuite/test_files/exe/complex/geometry.go:geometry_circle.in
+********************
+
+PROGRAM INPUT:
+circle
+3.14159
+exit
+
+----
+SUCCESS
+
+********************
+TEST 189: ./scripts/ifj_testsuite/test_files/exe/complex/geometry.go:geometry_triangle.in
+********************
+
+PROGRAM INPUT:
+triangle
+3.6478
+52.96E-4
+0.999999999
+5.5
+exit
+
+----
+SUCCESS
+
+********************
+TEST 190: ./scripts/ifj_testsuite/test_files/exe/complex/geometry.go:geometry_multiple_A.in
+********************
+
+PROGRAM INPUT:
+square
+2.0
+ractange
+2.0
+2.0
+circle
+2.0
+triangle
+2.0
+2.0
+2.0
+2.0
+exit
+
+----
+SUCCESS
+
+********************
+TEST 191: ./scripts/ifj_testsuite/test_files/exe/complex/geometry.go:geometry_multiple_B.in
+********************
+
+PROGRAM INPUT:
+ractange
+5.0
+3.0
+ractange
+3.0
+5.0
+circle
+0
+circle
+64578
+exit
+
+----
+SUCCESS
+
+********************
+TEST 192: ./scripts/ifj_testsuite/test_files/exe/basic/builtin.go
+********************
+
+SUCCESS
+
+********************
+TEST 193: ./scripts/ifj_testsuite/test_files/exe/basic/assign_same.go
+********************
+
+Go error output:
+<empty>
+----
+Interpret error output:
+<empty>
+----
+Go output:
+2
+0x1.7333333333333p+01
+
+----
+Interpret output:
+1
+0x1.d99999999999ap+1
+
+----
+ERROR: Go and IFJ interprets have different outputs.
+
+********************
+TEST 194: ./scripts/ifj_testsuite/test_files/exe/basic/input.go:input_A.in
+********************
+
+PROGRAM INPUT:
+5
+5.6
+hello
+
+----
+SUCCESS
+
+********************
+TEST 195: ./scripts/ifj_testsuite/test_files/exe/basic/input.go:input_B.in
+********************
+
+PROGRAM INPUT:
+5
+3.6
+string
+
+----
+SUCCESS
+
+********************
+TEST 196: ./scripts/ifj_testsuite/test_files/exe/basic/input.go:input_C.in
+********************
+
+PROGRAM INPUT:
+5.9
+7
+9.7
+
+----
+SUCCESS
+
+********************
+TEST 197: ./scripts/ifj_testsuite/test_files/exe/basic/input.go:input_D.in
+********************
+
+PROGRAM INPUT:
+hello
+word
+$#<>"
+
+----
+SUCCESS
+
+********************
+TEST 198: ./scripts/ifj_testsuite/test_files/exe/basic/input.go:input_E.in
+********************
+
+PROGRAM INPUT:
+4.6
+string
+
+----
+SUCCESS
+
+********************
+TEST 199: ./scripts/ifj_testsuite/test_files/exe/basic/input.go:../empty.in
+********************
+
+PROGRAM INPUT:
+2
+
+----
+SUCCESS
+
+********************
+TEST 200: ./scripts/ifj_testsuite/test_files/exe/basic/arithmetics.go
+********************
+
+SUCCESS
+
+********************
+TEST 201: ./scripts/ifj_testsuite/test_files/exe/basic/recursion_simple.go
+********************
+
+SUCCESS
+
+********************
+TEST 202: ./scripts/ifj_testsuite/test_files/exe/basic/recursion_complex.go
+********************
+
+SUCCESS
+
+********************
+TEST 203: ./scripts/ifj_testsuite/test_files/exe/basic/shadowing.go
+********************
+
+SUCCESS
+
+********************
+TEST 204: ./scripts/ifj_testsuite/test_files/exe/basic/cycle_declaration.go
+********************
+
+SUCCESS
+
+********************
+TEST 205: ./scripts/ifj_testsuite/test_files/exe/examples/example_2.go:factorial_A.in
+********************
+
+PROGRAM INPUT:
+-5
+
+----
+SUCCESS
+
+********************
+TEST 206: ./scripts/ifj_testsuite/test_files/exe/examples/example_2.go:factorial_B.in
+********************
+
+PROGRAM INPUT:
+5
+
+----
+SUCCESS
+
+********************
+TEST 207: ./scripts/ifj_testsuite/test_files/exe/examples/example_2.go:factorial_C.in
+********************
+
+PROGRAM INPUT:
+0
+
+----
+SUCCESS
+
+********************
+TEST 208: ./scripts/ifj_testsuite/test_files/exe/examples/example_2.go:factorial_D.in
+********************
+
+PROGRAM INPUT:
+anfg
+
+----
+SUCCESS
+
+********************
+TEST 209: ./scripts/ifj_testsuite/test_files/exe/examples/example_2.go:../empty.in
+********************
+
+PROGRAM INPUT:
+2
+
+----
+SUCCESS
+
+********************
+TEST 210: ./scripts/ifj_testsuite/test_files/exe/examples/example_1.go:factorial_A.in
+********************
+
+PROGRAM INPUT:
+-5
+
+----
+SUCCESS
+
+********************
+TEST 211: ./scripts/ifj_testsuite/test_files/exe/examples/example_1.go:factorial_B.in
+********************
+
+PROGRAM INPUT:
+5
+
+----
+SUCCESS
+
+********************
+TEST 212: ./scripts/ifj_testsuite/test_files/exe/examples/example_1.go:factorial_C.in
+********************
+
+PROGRAM INPUT:
+0
+
+----
+SUCCESS
+
+********************
+TEST 213: ./scripts/ifj_testsuite/test_files/exe/examples/example_1.go:factorial_D.in
+********************
+
+PROGRAM INPUT:
+anfg
+
+----
+SUCCESS
+
+********************
+TEST 214: ./scripts/ifj_testsuite/test_files/exe/examples/example_1.go:../empty.in
+********************
+
+PROGRAM INPUT:
+2
+
+----
+SUCCESS
+
+********************
+TEST 215: ./scripts/ifj_testsuite/test_files/exe/examples/example_3.go:alphabet_A.in
+********************
+
+PROGRAM INPUT:
+abcdefgh
+
+----
+SUCCESS
+
+********************
+TEST 216: ./scripts/ifj_testsuite/test_files/exe/examples/example_3.go:alphabet_B.in
+********************
+
+PROGRAM INPUT:
+abde
+aabbccddeeffgghh
+abcdefgh
+
+----
+SUCCESS
+
+********************
+TEST 217: ./scripts/ifj_testsuite/test_files/syn/top/starting_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 218: ./scripts/ifj_testsuite/test_files/syn/top/bad_header.go
+********************
+
+SUCCESS
+
+********************
+TEST 219: ./scripts/ifj_testsuite/test_files/syn/top/no_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 220: ./scripts/ifj_testsuite/test_files/syn/top/ending_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 221: ./scripts/ifj_testsuite/test_files/syn/top/functions.go
+********************
+
+SUCCESS
+
+********************
+TEST 222: ./scripts/ifj_testsuite/test_files/syn/top/gloabl_variable.go
+********************
+
+SUCCESS
+
+********************
+TEST 223: ./scripts/ifj_testsuite/test_files/syn/top/case_sensitive_kw.go
+********************
+
+SUCCESS
+
+********************
+TEST 224: ./scripts/ifj_testsuite/test_files/syn/top/no_function.go
+********************
+
+SUCCESS
+
+********************
+TEST 225: ./scripts/ifj_testsuite/test_files/syn/top/no_header.go
+********************
+
+SUCCESS
+
+********************
+TEST 226: ./scripts/ifj_testsuite/test_files/syn/statement/call.go
+********************
+
+SUCCESS
+
+********************
+TEST 227: ./scripts/ifj_testsuite/test_files/syn/statement/def_without_expr.go
+********************
+
+SUCCESS
+
+********************
+TEST 228: ./scripts/ifj_testsuite/test_files/syn/statement/def_without_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 229: ./scripts/ifj_testsuite/test_files/syn/statement/if.go
+********************
+
+SUCCESS
+
+********************
+TEST 230: ./scripts/ifj_testsuite/test_files/syn/statement/assign_without_expr.go
+********************
+
+SUCCESS
+
+********************
+TEST 231: ./scripts/ifj_testsuite/test_files/syn/statement/call_params.go
+********************
+
+SUCCESS
+
+********************
+TEST 232: ./scripts/ifj_testsuite/test_files/syn/statement/bad_call_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 233: ./scripts/ifj_testsuite/test_files/syn/statement/for_no_semicolons.go
+********************
+
+SUCCESS
+
+********************
+TEST 234: ./scripts/ifj_testsuite/test_files/syn/statement/for_without_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 235: ./scripts/ifj_testsuite/test_files/syn/statement/call_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 236: ./scripts/ifj_testsuite/test_files/syn/statement/for.go
+********************
+
+SUCCESS
+
+********************
+TEST 237: ./scripts/ifj_testsuite/test_files/syn/statement/return_value.go
+********************
+
+SUCCESS
+
+********************
+TEST 238: ./scripts/ifj_testsuite/test_files/syn/statement/call_no_term.go
+********************
+
+SUCCESS
+
+********************
+TEST 239: ./scripts/ifj_testsuite/test_files/syn/statement/if_with_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 240: ./scripts/ifj_testsuite/test_files/syn/statement/call_assign_multiple.go
+********************
+
+SUCCESS
+
+********************
+TEST 241: ./scripts/ifj_testsuite/test_files/syn/statement/assign_without_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 242: ./scripts/ifj_testsuite/test_files/syn/statement/multiple_eols.go
+********************
+
+SUCCESS
+
+********************
+TEST 243: ./scripts/ifj_testsuite/test_files/syn/statement/assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 244: ./scripts/ifj_testsuite/test_files/syn/statement/if_without_then.go
+********************
+
+SUCCESS
+
+********************
+TEST 245: ./scripts/ifj_testsuite/test_files/syn/statement/if_else_with_expr.go
+********************
+
+SUCCESS
+
+********************
+TEST 246: ./scripts/ifj_testsuite/test_files/syn/statement/return.go
+********************
+
+SUCCESS
+
+********************
+TEST 247: ./scripts/ifj_testsuite/test_files/syn/statement/if_without_expr.go
+********************
+
+SUCCESS
+
+********************
+TEST 248: ./scripts/ifj_testsuite/test_files/syn/statement/if_without_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 249: ./scripts/ifj_testsuite/test_files/syn/statement/assign_without_coma.go
+********************
+
+SUCCESS
+
+********************
+TEST 250: ./scripts/ifj_testsuite/test_files/syn/statement/for_bad_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 251: ./scripts/ifj_testsuite/test_files/syn/statement/assign_multiple.go
+********************
+
+SUCCESS
+
+********************
+TEST 252: ./scripts/ifj_testsuite/test_files/syn/statement/no_eols_statements.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 2 Expected: [3].
+
+********************
+TEST 253: ./scripts/ifj_testsuite/test_files/syn/statement/def.go
+********************
+
+SUCCESS
+
+********************
+TEST 254: ./scripts/ifj_testsuite/test_files/syn/statement/call_with_types.go
+********************
+
+SUCCESS
+
+********************
+TEST 255: ./scripts/ifj_testsuite/test_files/syn/statement/if_without_else.go
+********************
+
+SUCCESS
+
+********************
+TEST 256: ./scripts/ifj_testsuite/test_files/syn/statement/for_def_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 257: ./scripts/ifj_testsuite/test_files/syn/statement/for_with_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 258: ./scripts/ifj_testsuite/test_files/syn/statement/for_def.go
+********************
+
+SUCCESS
+
+********************
+TEST 259: ./scripts/ifj_testsuite/test_files/syn/statement/for_bad_def.go
+********************
+
+SUCCESS
+
+********************
+TEST 260: ./scripts/ifj_testsuite/test_files/syn/statement/for_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 261: ./scripts/ifj_testsuite/test_files/syn/statement/for_without_expr.go
+********************
+
+SUCCESS
+
+********************
+TEST 262: ./scripts/ifj_testsuite/test_files/syn/statement/bad_call.go
+********************
+
+SUCCESS
+
+********************
+TEST 263: ./scripts/ifj_testsuite/test_files/syn/function/returns_without_coma.go
+********************
+
+SUCCESS
+
+********************
+TEST 264: ./scripts/ifj_testsuite/test_files/syn/function/switched_params_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 265: ./scripts/ifj_testsuite/test_files/syn/function/params_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 266: ./scripts/ifj_testsuite/test_files/syn/function/returns_with_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 267: ./scripts/ifj_testsuite/test_files/syn/function/no_param_list.go
+********************
+
+SUCCESS
+
+********************
+TEST 268: ./scripts/ifj_testsuite/test_files/syn/function/bad_function_kw.go
+********************
+
+SUCCESS
+
+********************
+TEST 269: ./scripts/ifj_testsuite/test_files/syn/function/unending_function.go
+********************
+
+SUCCESS
+
+********************
+TEST 270: ./scripts/ifj_testsuite/test_files/syn/function/multiple_blocks.go
+********************
+
+SUCCESS
+
+********************
+TEST 271: ./scripts/ifj_testsuite/test_files/syn/function/function_without_body.go
+********************
+
+SUCCESS
+
+********************
+TEST 272: ./scripts/ifj_testsuite/test_files/syn/function/eol_in_function_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 273: ./scripts/ifj_testsuite/test_files/syn/function/params_without_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 274: ./scripts/ifj_testsuite/test_files/syn/function/params.go
+********************
+
+SUCCESS
+
+********************
+TEST 275: ./scripts/ifj_testsuite/test_files/syn/function/returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 276: ./scripts/ifj_testsuite/test_files/syn/function/empty_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 277: ./scripts/ifj_testsuite/test_files/syn/function/no_params_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 278: ./scripts/ifj_testsuite/test_files/syn/function/nested_functions.go
+********************
+
+SUCCESS
+
+********************
+TEST 279: ./scripts/ifj_testsuite/test_files/syn/function/double_function_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 280: ./scripts/ifj_testsuite/test_files/syn/function/params_without_coma.go
+********************
+
+SUCCESS
+
+********************
+TEST 281: ./scripts/ifj_testsuite/test_files/syn/function/function_missing_spaces.go
+********************
+
+SUCCESS
+
+********************
+TEST 282: ./scripts/ifj_testsuite/test_files/syn/function/params_with_value.go
+********************
+
+SUCCESS
+
+********************
+TEST 283: ./scripts/ifj_testsuite/test_files/syn/function/eol_in_function_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 284: ./scripts/ifj_testsuite/test_files/syn/function/params_without_type.go
+********************
+
+SUCCESS
+
+********************
+TEST 285: ./scripts/ifj_testsuite/test_files/syn/expression/expr_comp.go
+********************
+
+SUCCESS
+
+********************
+TEST 286: ./scripts/ifj_testsuite/test_files/syn/expression/expr_int.go
+********************
+
+SUCCESS
+
+********************
+TEST 287: ./scripts/ifj_testsuite/test_files/syn/expression/expr_float.go
+********************
+
+SUCCESS
+
+********************
+TEST 288: ./scripts/ifj_testsuite/test_files/syn/expression/comment_nested.go
+********************
+
+SUCCESS
+
+********************
+TEST 289: ./scripts/ifj_testsuite/test_files/syn/expression/expr_unary.go
+********************
+
+SUCCESS
+
+********************
+TEST 290: ./scripts/ifj_testsuite/test_files/syn/expression/expr_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 291: ./scripts/ifj_testsuite/test_files/syn/expression/expr_bad_encapsulate.go
+********************
+
+SUCCESS
+
+********************
+TEST 292: ./scripts/ifj_testsuite/test_files/syn/expression/expr_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 293: ./scripts/ifj_testsuite/test_files/syn/expression/expr_invalid_operator.go
+********************
+
+SUCCESS
+
+********************
+TEST 294: ./scripts/ifj_testsuite/test_files/syn/expression/expr_arithm.go
+********************
+
+SUCCESS
+
+********************
+TEST 295: ./scripts/ifj_testsuite/test_files/syn/expression/expr_string.go
+********************
+
+SUCCESS
+
+********************
+TEST 296: ./scripts/ifj_testsuite/test_files/syn/expression/expr_encapsulate.go
+********************
+
+SUCCESS

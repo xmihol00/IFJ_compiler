@@ -1,0 +1,2243 @@
+
+********************
+TEST 1: ./tests/sem/other/case_sensitive.go
+********************
+
+SUCCESS
+
+********************
+TEST 2: ./tests/sem/other/no_main.go
+********************
+
+SUCCESS
+
+********************
+TEST 3: ./tests/sem/other/main_returns.go
+********************
+
+Compiler error output:
+|FUN_DEF| F: main |RETURN| 0 |RETURN_END| |FUNC_BODY_END| 
+|FUN_DEF| F: main |RETURN| 0 |RETURN_END| |FUNC_BODY_END| 
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 0 Expected: [6].
+
+********************
+TEST 4: ./tests/sem/other/main_params_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 5: ./tests/sem/other/bad_prolog_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 6: ./tests/sem/other/main_params.go
+********************
+
+SUCCESS
+
+********************
+TEST 7: ./tests/sem/expresion/lt_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 8: ./tests/sem/expresion/div_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 9: ./tests/sem/expresion/sub_5.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 10: ./tests/sem/expresion/lt_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 11: ./tests/sem/expresion/eq_2.go
+********************
+
+Compiler error output:
+free(): double free detected in tcache 2
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: -6 Expected: [5].
+
+********************
+TEST 12: ./tests/sem/expresion/sub_1.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 13: ./tests/sem/expresion/gte_1.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 14: ./tests/sem/expresion/gt_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 15: ./tests/sem/expresion/gte_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 16: ./tests/sem/expresion/lt_2.go
+********************
+
+Compiler error output:
+free(): double free detected in tcache 2
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: -6 Expected: [5].
+
+********************
+TEST 17: ./tests/sem/expresion/mul_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 18: ./tests/sem/expresion/div_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 19: ./tests/sem/expresion/add_9.go
+********************
+
+SUCCESS
+
+********************
+TEST 20: ./tests/sem/expresion/mul_2.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 21: ./tests/sem/expresion/gt_1.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 22: ./tests/sem/expresion/div_zero.go
+********************
+
+SUCCESS
+
+********************
+TEST 23: ./tests/sem/expresion/gte_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 24: ./tests/sem/expresion/lte_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 25: ./tests/sem/expresion/mul_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 26: ./tests/sem/expresion/add_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 27: ./tests/sem/expresion/lte_2.go
+********************
+
+Compiler error output:
+free(): double free detected in tcache 2
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: -6 Expected: [5].
+
+********************
+TEST 28: ./tests/sem/expresion/lte_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 29: ./tests/sem/expresion/div_1.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 30: ./tests/sem/expresion/eq_1.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 31: ./tests/sem/expresion/neq_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 32: ./tests/sem/expresion/lte_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 33: ./tests/sem/expresion/neq_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 34: ./tests/sem/expresion/div_2.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 35: ./tests/sem/expresion/div_zero_complex.go
+********************
+
+Interpret error output:
+Error at line: 24
+Division by zero!
+
+----
+ERROR: Unexpected exit code of IFJ interpreter. Actual: 57 Expected: [9].
+
+********************
+TEST 36: ./tests/sem/expresion/neq_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 37: ./tests/sem/expresion/sub_2.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 38: ./tests/sem/expresion/div_5.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 39: ./tests/sem/expresion/add_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 40: ./tests/sem/expresion/gt_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 41: ./tests/sem/expresion/sub_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 42: ./tests/sem/expresion/sub_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 43: ./tests/sem/expresion/lte_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 44: ./tests/sem/expresion/lt_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 45: ./tests/sem/expresion/sub_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 46: ./tests/sem/expresion/lte_1.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 47: ./tests/sem/expresion/gt_2.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 48: ./tests/sem/expresion/lt_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 49: ./tests/sem/expresion/add_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 50: ./tests/sem/expresion/gte_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 51: ./tests/sem/expresion/add_6.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 52: ./tests/sem/expresion/gt_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 53: ./tests/sem/expresion/div_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 54: ./tests/sem/expresion/mul_1.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 55: ./tests/sem/expresion/gte_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 56: ./tests/sem/expresion/sub_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 57: ./tests/sem/expresion/mul_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 58: ./tests/sem/expresion/add_5.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 59: ./tests/sem/expresion/neq_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 60: ./tests/sem/expresion/gt_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 61: ./tests/sem/expresion/neq_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 62: ./tests/sem/expresion/div_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 63: ./tests/sem/expresion/add_8.go
+********************
+
+SUCCESS
+
+********************
+TEST 64: ./tests/sem/expresion/lt_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 65: ./tests/sem/expresion/mul_5.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 66: ./tests/sem/expresion/eq_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 67: ./tests/sem/expresion/eq_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 68: ./tests/sem/expresion/add_1.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 69: ./tests/sem/expresion/gt_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 70: ./tests/sem/expresion/eq_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 71: ./tests/sem/expresion/mul_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 72: ./tests/sem/expresion/add_2.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 73: ./tests/sem/expresion/gte_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 74: ./tests/sem/expresion/neq_1.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 75: ./tests/sem/expresion/lt_1.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 76: ./tests/sem/expresion/eq_7.go
+********************
+
+SUCCESS
+
+********************
+TEST 77: ./tests/sem/expresion/gte_2.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 78: ./tests/sem/expresion/eq_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 79: ./tests/sem/expresion/lte_6.go
+********************
+
+SUCCESS
+
+********************
+TEST 80: ./tests/sem/expresion/neq_2.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 4 Expected: [5].
+
+********************
+TEST 81: ./tests/sem/builtin/print_bad.go
+********************
+
+SUCCESS
+
+********************
+TEST 82: ./tests/sem/builtin/cast_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 83: ./tests/sem/builtin/chr_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 84: ./tests/sem/builtin/substr_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 85: ./tests/sem/builtin/substr_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 86: ./tests/sem/builtin/print_int.go
+********************
+
+SUCCESS
+
+********************
+TEST 87: ./tests/sem/builtin/ord_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 88: ./tests/sem/builtin/ord_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 89: ./tests/sem/builtin/chr_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 90: ./tests/sem/builtin/print_float.go
+********************
+
+SUCCESS
+
+********************
+TEST 91: ./tests/sem/builtin/substr_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 92: ./tests/sem/builtin/print_all.go
+********************
+
+SUCCESS
+
+********************
+TEST 93: ./tests/sem/builtin/inputi_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 94: ./tests/sem/builtin/cast_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 95: ./tests/sem/builtin/cast_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 96: ./tests/sem/builtin/inputi_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 97: ./tests/sem/builtin/cast_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 98: ./tests/sem/builtin/len_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 99: ./tests/sem/builtin/inputs_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 100: ./tests/sem/builtin/inputs_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 101: ./tests/sem/builtin/ord_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 102: ./tests/sem/builtin/inputf_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 103: ./tests/sem/builtin/print_string.go
+********************
+
+SUCCESS
+
+********************
+TEST 104: ./tests/sem/builtin/print_empty.go
+********************
+
+SUCCESS
+
+********************
+TEST 105: ./tests/sem/builtin/inputf_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 106: ./tests/sem/builtin/len_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 107: ./tests/sem/statement/bad_return_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 108: ./tests/sem/statement/call_bad_return_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 109: ./tests/sem/statement/for_scope_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 110: ./tests/sem/statement/call_bad_params_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 111: ./tests/sem/statement/bad_return_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 112: ./tests/sem/statement/assign_dont_match_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 113: ./tests/sem/statement/underscore_usage_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 114: ./tests/sem/statement/underscore_usage_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 3 Expected: [7].
+
+********************
+TEST 115: ./tests/sem/statement/call_bad_return_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 116: ./tests/sem/statement/bad_return_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 117: ./tests/sem/statement/for_nonbool.go
+********************
+
+Compiler error output:
+|FUN_DEF| F: main |FOR1| |FOR1_EMPTY| |FOR2| 5 |FOR_BODY| |FOR3_EMPTY| |FOR_BODY_END| |FUNC_BODY_END| 
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 7 Expected: [5].
+
+********************
+TEST 118: ./tests/sem/statement/no_return.go
+********************
+
+SUCCESS
+
+********************
+TEST 119: ./tests/sem/statement/call_undefined.go
+********************
+
+SUCCESS
+
+********************
+TEST 120: ./tests/sem/statement/assign_dont_match_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 121: ./tests/sem/statement/if_nonbool.go
+********************
+
+Compiler error output:
+|FUN_DEF| F: main |IF| 5 |IF_BODY| |IF_BODY_END| |ELSE| |ELSE_BODY_END| |FUNC_BODY_END| 
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 7 Expected: [5].
+
+********************
+TEST 122: ./tests/sem/statement/underscore_usage_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 123: ./tests/sem/statement/underscore_usage_3.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 3 Expected: [2, 7].
+
+********************
+TEST 124: ./tests/sem/statement/call_bad_params_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 125: ./tests/sem/statement/assign_dont_match_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 126: ./tests/sem/statement/for_scope_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 127: ./tests/sem/statement/call_bad_return_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 128: ./tests/sem/statement/bad_return_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 129: ./tests/sem/declaration/multiple_vars_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 130: ./tests/sem/declaration/nondefined_var_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 131: ./tests/sem/declaration/multiple_vars_5.go
+********************
+
+SUCCESS
+
+********************
+TEST 132: ./tests/sem/declaration/multiple_vars_4.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 2 Expected: [3, 6, 7].
+
+********************
+TEST 133: ./tests/sem/declaration/nondefined_var_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 134: ./tests/sem/declaration/nondefined_var_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 135: ./tests/sem/declaration/multiple_vars_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 136: ./tests/sem/declaration/multiple_functions.go
+********************
+
+SUCCESS
+
+********************
+TEST 137: ./tests/sem/declaration/multiple_vars_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 138: ./tests/sem/declaration/nondefined_var_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 139: ./tests/syn/expression/expr_unary.go
+********************
+
+Compiler error output:
+|FUN_DEF| F: main |VAR_DEF| V: a&13 |ASSIGN_START| V: a&13 |VARS_END| -69 |ASSIGN_END| V: a&13 |FUNC_BODY_END| 
+|FUN_DEF| F: main |ADRESS_ASSGN| |MOV| V: a&13 -69 |ADR_ASSGN_END| |FUNC_BODY_END| 
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 0 Expected: [2].
+
+********************
+TEST 140: ./tests/syn/expression/expr_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 141: ./tests/syn/expression/expr_arithm.go
+********************
+
+SUCCESS
+
+********************
+TEST 142: ./tests/syn/expression/expr_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 143: ./tests/syn/expression/expr_comp.go
+********************
+
+SUCCESS
+
+********************
+TEST 144: ./tests/syn/expression/expr_invalid_operator.go
+********************
+
+SUCCESS
+
+********************
+TEST 145: ./tests/syn/expression/comment_nested.go
+********************
+
+SUCCESS
+
+********************
+TEST 146: ./tests/syn/expression/expr_string.go
+********************
+
+SUCCESS
+
+********************
+TEST 147: ./tests/syn/expression/expr_float.go
+********************
+
+SUCCESS
+
+********************
+TEST 148: ./tests/syn/expression/expr_bad_encapsulate.go
+********************
+
+SUCCESS
+
+********************
+TEST 149: ./tests/syn/expression/expr_int.go
+********************
+
+SUCCESS
+
+********************
+TEST 150: ./tests/syn/expression/expr_encapsulate.go
+********************
+
+SUCCESS
+
+********************
+TEST 151: ./tests/syn/function/eol_in_function_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 152: ./tests/syn/function/eol_in_function_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 153: ./tests/syn/function/params_without_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 154: ./tests/syn/function/multiple_blocks.go
+********************
+
+SUCCESS
+
+********************
+TEST 155: ./tests/syn/function/switched_params_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 156: ./tests/syn/function/no_params_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 157: ./tests/syn/function/returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 158: ./tests/syn/function/empty_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 159: ./tests/syn/function/params_returns.go
+********************
+
+SUCCESS
+
+********************
+TEST 160: ./tests/syn/function/returns_with_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 161: ./tests/syn/function/params_without_type.go
+********************
+
+SUCCESS
+
+********************
+TEST 162: ./tests/syn/function/returns_without_coma.go
+********************
+
+SUCCESS
+
+********************
+TEST 163: ./tests/syn/function/unending_function.go
+********************
+
+SUCCESS
+
+********************
+TEST 164: ./tests/syn/function/params_with_value.go
+********************
+
+SUCCESS
+
+********************
+TEST 165: ./tests/syn/function/function_missing_spaces.go
+********************
+
+SUCCESS
+
+********************
+TEST 166: ./tests/syn/function/nested_functions.go
+********************
+
+SUCCESS
+
+********************
+TEST 167: ./tests/syn/function/no_param_list.go
+********************
+
+SUCCESS
+
+********************
+TEST 168: ./tests/syn/function/double_function_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 169: ./tests/syn/function/params_without_coma.go
+********************
+
+SUCCESS
+
+********************
+TEST 170: ./tests/syn/function/function_without_body.go
+********************
+
+SUCCESS
+
+********************
+TEST 171: ./tests/syn/function/bad_function_kw.go
+********************
+
+SUCCESS
+
+********************
+TEST 172: ./tests/syn/function/params.go
+********************
+
+SUCCESS
+
+********************
+TEST 173: ./tests/syn/statement/for_without_expr.go
+********************
+
+SUCCESS
+
+********************
+TEST 174: ./tests/syn/statement/if_without_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 175: ./tests/syn/statement/if.go
+********************
+
+SUCCESS
+
+********************
+TEST 176: ./tests/syn/statement/def_without_expr.go
+********************
+
+SUCCESS
+
+********************
+TEST 177: ./tests/syn/statement/bad_call_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 178: ./tests/syn/statement/assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 179: ./tests/syn/statement/if_with_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 180: ./tests/syn/statement/if_else_with_expr.go
+********************
+
+SUCCESS
+
+********************
+TEST 181: ./tests/syn/statement/for_bad_def.go
+********************
+
+SUCCESS
+
+********************
+TEST 182: ./tests/syn/statement/for_bad_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 183: ./tests/syn/statement/return_value.go
+********************
+
+SUCCESS
+
+********************
+TEST 184: ./tests/syn/statement/call.go
+********************
+
+SUCCESS
+
+********************
+TEST 185: ./tests/syn/statement/for.go
+********************
+
+SUCCESS
+
+********************
+TEST 186: ./tests/syn/statement/for_without_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 187: ./tests/syn/statement/for_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 188: ./tests/syn/statement/call_with_types.go
+********************
+
+SUCCESS
+
+********************
+TEST 189: ./tests/syn/statement/call_params.go
+********************
+
+SUCCESS
+
+********************
+TEST 190: ./tests/syn/statement/multiple_eols.go
+********************
+
+SUCCESS
+
+********************
+TEST 191: ./tests/syn/statement/assign_multiple.go
+********************
+
+SUCCESS
+
+********************
+TEST 192: ./tests/syn/statement/call_assign_multiple.go
+********************
+
+SUCCESS
+
+********************
+TEST 193: ./tests/syn/statement/assign_without_expr.go
+********************
+
+SUCCESS
+
+********************
+TEST 194: ./tests/syn/statement/if_without_else.go
+********************
+
+Compiler error output:
+|FUN_DEF| F: main |IF| false |IF_BODY| |IF_BODY_END| |FUNC_BODY_END| 
+|FUN_DEF| F: main |IF| |ADRESS_ASSGN| |SINGLE_VAL_IF| false |IF_BODY| |IF_BODY_END| |FUNC_BODY_END| 
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 0 Expected: [2].
+
+********************
+TEST 195: ./tests/syn/statement/assign_without_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 196: ./tests/syn/statement/def.go
+********************
+
+SUCCESS
+
+********************
+TEST 197: ./tests/syn/statement/for_with_eol.go
+********************
+
+Compiler error output:
+|FUN_DEF| F: main |FOR1| |FOR1_EMPTY| |FOR2| false |FOR_BODY| |FOR3_EMPTY| |FOR_BODY_END| |FUNC_BODY_END| 
+|FUN_DEF| F: main |FOR1| |FOR1_EMPTY| |FOR2| |ADRESS_ASSGN| |SINGLE_VAL_FOR| false |FOR_BODY| |FOR3_EMPTY| |FOR_BODY_END| |FUNC_BODY_END| 
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 0 Expected: [2].
+
+********************
+TEST 198: ./tests/syn/statement/call_no_term.go
+********************
+
+Compiler error output:
+|FUN_DEF| F: alpha |FUNC_BODY_END| |FUN_DEF| F: main |FIRST_FUNC_CALL| |FUNC_CALL| F: alpha |PARAM| 9 |PARAM_END| |FUN_CALL_END| |FUNC_BODY_END| 
+|FUN_DEF| F: alpha |FUNC_BODY_END| |FUN_DEF| F: main |FUNC_CALL| F: alpha |ADRESS_ASSGN| |MOV| V: a&13 9 |ADR_ASSGN_END| |FUN_CALL_END| |FUNC_BODY_END| 
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 0 Expected: [2].
+
+********************
+TEST 199: ./tests/syn/statement/bad_call.go
+********************
+
+SUCCESS
+
+********************
+TEST 200: ./tests/syn/statement/if_without_then.go
+********************
+
+SUCCESS
+
+********************
+TEST 201: ./tests/syn/statement/for_def.go
+********************
+
+SUCCESS
+
+********************
+TEST 202: ./tests/syn/statement/call_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 203: ./tests/syn/statement/return.go
+********************
+
+SUCCESS
+
+********************
+TEST 204: ./tests/syn/statement/for_def_assign.go
+********************
+
+SUCCESS
+
+********************
+TEST 205: ./tests/syn/statement/no_eols_statements.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 3 Expected: [2].
+
+********************
+TEST 206: ./tests/syn/statement/for_no_semicolons.go
+********************
+
+SUCCESS
+
+********************
+TEST 207: ./tests/syn/statement/if_without_expr.go
+********************
+
+SUCCESS
+
+********************
+TEST 208: ./tests/syn/statement/assign_without_coma.go
+********************
+
+SUCCESS
+
+********************
+TEST 209: ./tests/syn/statement/def_without_id.go
+********************
+
+SUCCESS
+
+********************
+TEST 210: ./tests/syn/top/no_function.go
+********************
+
+SUCCESS
+
+********************
+TEST 211: ./tests/syn/top/functions.go
+********************
+
+SUCCESS
+
+********************
+TEST 212: ./tests/syn/top/gloabl_variable.go
+********************
+
+SUCCESS
+
+********************
+TEST 213: ./tests/syn/top/bad_header.go
+********************
+
+SUCCESS
+
+********************
+TEST 214: ./tests/syn/top/no_header.go
+********************
+
+SUCCESS
+
+********************
+TEST 215: ./tests/syn/top/no_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 216: ./tests/syn/top/case_sensitive_kw.go
+********************
+
+SUCCESS
+
+********************
+TEST 217: ./tests/syn/top/ending_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 218: ./tests/syn/top/starting_eol.go
+********************
+
+SUCCESS
+
+********************
+TEST 219: ./tests/exe/basic/cycle_declaration.go
+********************
+
+SUCCESS
+
+********************
+TEST 220: ./tests/exe/basic/recursion_simple.go
+********************
+
+SUCCESS
+
+********************
+TEST 221: ./tests/exe/basic/builtin.go
+********************
+
+SUCCESS
+
+********************
+TEST 222: ./tests/exe/basic/recursion_complex.go
+********************
+
+SUCCESS
+
+********************
+TEST 223: ./tests/exe/basic/shadowing.go
+********************
+
+Go error output:
+<empty>
+----
+Interpret error output:
+<empty>
+----
+Go output:
+30100x1.91eb851eb851fp+010x1.91eb851eb851fp+01world90x1.91eb851eb851fp+010x1.91eb851eb851fp+01world80x1.91eb851eb851fp+010x1.91eb851eb851fp+01world70x1.91eb851eb851fp+010x1.91eb851eb851fp+01world60x1.91eb851eb851fp+010x1.91eb851eb851fp+01world50x1.91eb851eb851fp+010x1.91eb851eb851fp+01world40x1.91eb851eb851fp+010x1.91eb851eb851fp+01world30x1.91eb851eb851fp+010x1.91eb851eb851fp+01world20x1.91eb851eb851fp+010x1.91eb851eb851fp+01world10x1.91eb851eb851fp+010x1.91eb851eb851fp+01world30
+----
+Interpret output:
+30100x1.91eb851eb851fp+10x1.91eb851eb851fp+1world90x1.91eb851eb851fp+10x1.91eb851eb851fp+1world80x1.91eb851eb851fp+10x1.91eb851eb851fp+1world70x1.91eb851eb851fp+10x1.91eb851eb851fp+1world60x1.91eb851eb851fp+10x1.91eb851eb851fp+1world50x1.91eb851eb851fp+10x1.91eb851eb851fp+1world40x1.91eb851eb851fp+10x1.91eb851eb851fp+1world30x1.91eb851eb851fp+10x1.91eb851eb851fp+1world20x1.91eb851eb851fp+10x1.91eb851eb851fp+1world10x1.91eb851eb851fp+10x1.91eb851eb851fp+1world0
+----
+ERROR: Go and IFJ interprets have different outputs.
+
+********************
+TEST 224: ./tests/exe/basic/arithmetics.go
+********************
+
+SUCCESS
+
+********************
+TEST 225: ./tests/exe/basic/input.go:input_A.in
+********************
+
+PROGRAM INPUT:
+5 5.6 hello
+
+----
+Go error output:
+<empty>
+----
+Interpret error output:
+<empty>
+----
+Go output:
+VALID INT 5
+INVALID FLOAT
+INVALID STRING
+
+----
+Interpret output:
+VALID INT 5
+VALID FLOAT 
+VALID STRING 
+
+----
+ERROR: Go and IFJ interprets have different outputs.
+
+********************
+TEST 226: ./tests/exe/basic/input.go:input_B.in
+********************
+
+PROGRAM INPUT:
+5
+3.6
+string
+
+----
+SUCCESS
+
+********************
+TEST 227: ./tests/exe/basic/input.go:input_C.in
+********************
+
+PROGRAM INPUT:
+5.9
+7
+9.7
+
+----
+SUCCESS
+
+********************
+TEST 228: ./tests/exe/basic/input.go:input_D.in
+********************
+
+PROGRAM INPUT:
+hello
+word
+$#<>"
+
+----
+Go error output:
+<empty>
+----
+Interpret error output:
+<empty>
+----
+Go output:
+INVALID INT
+INVALID FLOAT
+VALID STRING $#<>"
+
+----
+Interpret output:
+VALID INT 
+VALID FLOAT 
+VALID STRING $#<>"
+
+----
+ERROR: Go and IFJ interprets have different outputs.
+
+********************
+TEST 229: ./tests/exe/basic/input.go:input_E.in
+********************
+
+PROGRAM INPUT:
+4.6
+string
+
+----
+Go error output:
+<empty>
+----
+Interpret error output:
+<empty>
+----
+Go output:
+VALID INT 4
+INVALID FLOAT
+INVALID STRING
+
+----
+Interpret output:
+VALID INT 4
+VALID FLOAT 
+VALID STRING 
+
+----
+ERROR: Go and IFJ interprets have different outputs.
+
+********************
+TEST 230: ./tests/exe/basic/input.go:../empty.in
+********************
+
+Go error output:
+<empty>
+----
+Interpret error output:
+<empty>
+----
+Go output:
+INVALID INT
+INVALID FLOAT
+INVALID STRING
+
+----
+Interpret output:
+VALID INT 
+VALID FLOAT 
+VALID STRING 
+
+----
+ERROR: Go and IFJ interprets have different outputs.
+
+********************
+TEST 231: ./tests/exe/basic/assign_same.go
+********************
+
+Go error output:
+<empty>
+----
+Interpret error output:
+<empty>
+----
+Go output:
+2
+0x1.7333333333333p+01
+
+----
+Interpret output:
+1
+0x1.d99999999999ap+1
+
+----
+ERROR: Go and IFJ interprets have different outputs.
+
+********************
+TEST 232: ./tests/exe/examples/example_3.go:alphabet_A.in
+********************
+
+PROGRAM INPUT:
+abcdefgh
+
+----
+SUCCESS
+
+********************
+TEST 233: ./tests/exe/examples/example_3.go:alphabet_B.in
+********************
+
+PROGRAM INPUT:
+abde
+aabbccddeeffgghh
+abcdefgh
+
+----
+SUCCESS
+
+********************
+TEST 234: ./tests/exe/examples/example_3.go:../empty.in
+********************
+
+ERROR: test timeout
+
+********************
+TEST 235: ./tests/exe/examples/example_2.go:factorial_A.in
+********************
+
+PROGRAM INPUT:
+-5
+
+----
+SUCCESS
+
+********************
+TEST 236: ./tests/exe/examples/example_2.go:factorial_B.in
+********************
+
+PROGRAM INPUT:
+5
+
+----
+SUCCESS
+
+********************
+TEST 237: ./tests/exe/examples/example_2.go:factorial_C.in
+********************
+
+PROGRAM INPUT:
+0
+
+----
+SUCCESS
+
+********************
+TEST 238: ./tests/exe/examples/example_2.go:factorial_D.in
+********************
+
+PROGRAM INPUT:
+anfg
+
+----
+Interpret error output:
+Error at line: 77
+Wrong operand type!
+
+----
+ERROR: Unexpected exit code of IFJ interpreter. Actual: 53 Expected: [0].
+
+********************
+TEST 239: ./tests/exe/examples/example_2.go:../empty.in
+********************
+
+Interpret error output:
+Error at line: 77
+Wrong operand type!
+
+----
+ERROR: Unexpected exit code of IFJ interpreter. Actual: 53 Expected: [0].
+
+********************
+TEST 240: ./tests/exe/examples/example_1.go:factorial_A.in
+********************
+
+PROGRAM INPUT:
+-5
+
+----
+SUCCESS
+
+********************
+TEST 241: ./tests/exe/examples/example_1.go:factorial_B.in
+********************
+
+PROGRAM INPUT:
+5
+
+----
+SUCCESS
+
+********************
+TEST 242: ./tests/exe/examples/example_1.go:factorial_C.in
+********************
+
+PROGRAM INPUT:
+0
+
+----
+SUCCESS
+
+********************
+TEST 243: ./tests/exe/examples/example_1.go:factorial_D.in
+********************
+
+PROGRAM INPUT:
+anfg
+
+----
+Interpret error output:
+Error at line: 30
+Wrong operand type!
+
+----
+ERROR: Unexpected exit code of IFJ interpreter. Actual: 53 Expected: [0].
+
+********************
+TEST 244: ./tests/exe/examples/example_1.go:../empty.in
+********************
+
+Interpret error output:
+Error at line: 30
+Wrong operand type!
+
+----
+ERROR: Unexpected exit code of IFJ interpreter. Actual: 53 Expected: [0].
+
+********************
+TEST 245: ./tests/exe/complex/brainfuck.go:brainfuck_A.in
+********************
+
+PROGRAM INPUT:
+++++++++++++++++++++++++++++++++++++++++++++++++.----------------.
+----
+SUCCESS
+
+********************
+TEST 246: ./tests/exe/complex/brainfuck.go:brainfuck_B.in
+********************
+
+PROGRAM INPUT:
+++++++++++++++++++++++++++++++++++++++++++++++++>+++++++++++++++++++++++++++++++++++++++++++++++++++<.>>>>>++++++++++<<<><<.<.>>>>>.
+----
+SUCCESS
+
+********************
+TEST 247: ./tests/exe/complex/brainfuck.go:brainfuck_C.in
+********************
+
+PROGRAM INPUT:
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+----
+SUCCESS
+
+********************
+TEST 248: ./tests/exe/complex/geometry.go:geometry_square.in
+********************
+
+PROGRAM INPUT:
+square
+5.97
+exit
+
+----
+SUCCESS
+
+********************
+TEST 249: ./tests/exe/complex/geometry.go:geometry_ractange.in
+********************
+
+PROGRAM INPUT:
+ractange
+2.0
+3.5
+exit
+
+----
+SUCCESS
+
+********************
+TEST 250: ./tests/exe/complex/geometry.go:geometry_circle.in
+********************
+
+PROGRAM INPUT:
+circle
+3.14159
+exit
+
+----
+SUCCESS
+
+********************
+TEST 251: ./tests/exe/complex/geometry.go:geometry_triangle.in
+********************
+
+PROGRAM INPUT:
+triangle
+3.6478
+52.96E-4
+0.999999999
+5.5
+exit
+
+----
+SUCCESS
+
+********************
+TEST 252: ./tests/exe/complex/geometry.go:geometry_multiple_A.in
+********************
+
+PROGRAM INPUT:
+square
+2.0
+ractange
+2.0
+2.0
+circle
+2.0
+triangle
+2.0
+2.0
+2.0
+2.0
+exit
+
+----
+SUCCESS
+
+********************
+TEST 253: ./tests/exe/complex/geometry.go:geometry_multiple_B.in
+********************
+
+PROGRAM INPUT:
+ractange
+5.0
+3.0
+ractange
+3.0
+5.0
+circle
+0
+circle
+64578
+exit
+
+----
+SUCCESS
+
+********************
+TEST 254: ./tests/lex/strings/empty_string.go
+********************
+
+SUCCESS
+
+********************
+TEST 255: ./tests/lex/strings/string.go
+********************
+
+SUCCESS
+
+********************
+TEST 256: ./tests/lex/strings/string_bad_escape_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 257: ./tests/lex/strings/unfinished_string_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 258: ./tests/lex/strings/string_bad_escape_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 259: ./tests/lex/strings/string_escape.go
+********************
+
+SUCCESS
+
+********************
+TEST 260: ./tests/lex/strings/unfinished_string_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 261: ./tests/lex/strings/string_bad_escape_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 262: ./tests/lex/strings/string_bad_escape_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 263: ./tests/lex/strings/string_escape_hex.go
+********************
+
+Interpret error output:
+Wrong escape sequence!
+
+----
+ERROR: Unexpected exit code of IFJ interpreter. Actual: 51 Expected: [0].
+
+********************
+TEST 264: ./tests/lex/comments/block_line.go
+********************
+
+SUCCESS
+
+********************
+TEST 265: ./tests/lex/comments/unending.go
+********************
+
+SUCCESS
+
+********************
+TEST 266: ./tests/lex/comments/line_nested.go
+********************
+
+SUCCESS
+
+********************
+TEST 267: ./tests/lex/comments/multiline.go
+********************
+
+SUCCESS
+
+********************
+TEST 268: ./tests/lex/comments/line_block.go
+********************
+
+SUCCESS
+
+********************
+TEST 269: ./tests/lex/characters/dot.go
+********************
+
+SUCCESS
+
+********************
+TEST 270: ./tests/lex/characters/dolar.go
+********************
+
+SUCCESS
+
+********************
+TEST 271: ./tests/lex/characters/amp.go
+********************
+
+SUCCESS
+
+********************
+TEST 272: ./tests/lex/characters/sharp.go
+********************
+
+SUCCESS
+
+********************
+TEST 273: ./tests/lex/characters/bracket.go
+********************
+
+SUCCESS
+
+********************
+TEST 274: ./tests/lex/characters/question.go
+********************
+
+Compiler error output:
+<empty>
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 2 Expected: [1].
+
+********************
+TEST 275: ./tests/lex/numbers/zero_int.go
+********************
+
+SUCCESS
+
+********************
+TEST 276: ./tests/lex/numbers/float_dot.go
+********************
+
+SUCCESS
+
+********************
+TEST 277: ./tests/lex/numbers/float_exp_zero_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 278: ./tests/lex/numbers/float_exp_4.go
+********************
+
+SUCCESS
+
+********************
+TEST 279: ./tests/lex/numbers/leading_zeroes_int.go
+********************
+
+Compiler error output:
+|FUN_DEF| F: main |VAR_DEF| V: a&13 |ASSIGN_START| V: a&13 |VARS_END| 5 |ASSIGN_END| V: a&13 |FUNC_BODY_END| 
+|FUN_DEF| F: main |ADRESS_ASSGN| |MOV| V: a&13 5 |ADR_ASSGN_END| |FUNC_BODY_END| 
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 0 Expected: [1, 2].
+
+********************
+TEST 280: ./tests/lex/numbers/float_exp_3.go
+********************
+
+SUCCESS
+
+********************
+TEST 281: ./tests/lex/numbers/float_exp_dot_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 282: ./tests/lex/numbers/float_space.go
+********************
+
+SUCCESS
+
+********************
+TEST 283: ./tests/lex/numbers/float_dot_zero.go
+********************
+
+SUCCESS
+
+********************
+TEST 284: ./tests/lex/numbers/int.go
+********************
+
+SUCCESS
+
+********************
+TEST 285: ./tests/lex/numbers/zeroes.go
+********************
+
+Compiler error output:
+|FUN_DEF| F: main |VAR_DEF| V: a&13 |ASSIGN_START| V: a&13 |VARS_END| 0 |ASSIGN_END| V: a&13 |FUNC_BODY_END| 
+|FUN_DEF| F: main |ADRESS_ASSGN| |MOV| V: a&13 0 |ADR_ASSGN_END| |FUNC_BODY_END| 
+
+----
+ERROR: Unexpected exit code of IFJ compiler. Actual: 0 Expected: [1, 2].
+
+********************
+TEST 286: ./tests/lex/numbers/float_exp_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 287: ./tests/lex/numbers/float_exp_zeroes.go
+********************
+
+SUCCESS
+
+********************
+TEST 288: ./tests/lex/numbers/float_exp_dot_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 289: ./tests/lex/numbers/float_exp_zero_2.go
+********************
+
+SUCCESS
+
+********************
+TEST 290: ./tests/lex/numbers/float_dot_zeroes.go
+********************
+
+SUCCESS
+
+********************
+TEST 291: ./tests/lex/numbers/zero_float.go
+********************
+
+SUCCESS
+
+********************
+TEST 292: ./tests/lex/numbers/leading_zeroes_float.go
+********************
+
+SUCCESS
+
+********************
+TEST 293: ./tests/lex/numbers/float_exp_1.go
+********************
+
+SUCCESS
+
+********************
+TEST 294: ./tests/lex/ids/id_numbers.go
+********************
+
+SUCCESS
+
+********************
+TEST 295: ./tests/lex/ids/id_starting_underscore.go
+********************
+
+SUCCESS
+
+********************
+TEST 296: ./tests/lex/ids/id_all.go
+********************
+
+SUCCESS
+
+********************
+TEST 297: ./tests/lex/ids/underscore_id.go
+********************
+
+SUCCESS
